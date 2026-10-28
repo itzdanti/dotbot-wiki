@@ -1,0 +1,47 @@
+3:"$Sreact.fragment"
+4:"/dotbot-wiki/_next/static/chunks/2246b7geljd_r.js"
+5:"/dotbot-wiki/_next/static/chunks/0dls0mmeux0zy.js"
+6:"/dotbot-wiki/_next/static/chunks/2swq1hg-1wy_b.js"
+7:"/dotbot-wiki/_next/static/chunks/41uhrw00nx-kf.js"
+8:"/dotbot-wiki/_next/static/chunks/0szhorn1p3cty.js"
+9:I[39756,["$4","$5","$6","$7","$8"],"default"]
+a:I[37457,["$4","$5","$6","$7","$8"],"default"]
+f:"/dotbot-wiki/_next/static/chunks/3vcrbjdf-4nfq.js"
+10:"/dotbot-wiki/_next/static/chunks/1_rw8zo_m49-l.js"
+11:"/dotbot-wiki/_next/static/chunks/173584cyzqytr.js"
+12:"/dotbot-wiki/_next/static/chunks/3b8h1rpo-v3pl.js"
+13:"/dotbot-wiki/_next/static/chunks/26w8pmxqmgdpv.js"
+14:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsPage"]
+15:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsTitle"]
+16:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsDescription"]
+17:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsBody"]
+18:I[94157,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"Heading"]
+20:"ViewportBoundary"
+21:I[97367,["$4","$5","$6","$7","$8"],"$20"]
+22:"MetadataBoundary"
+23:I[97367,["$4","$5","$6","$7","$8"],"$22"]
+24:"$Sreact.suspense"
+25:I[27201,["$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","$L14",null,{"toc":[{"depth":2,"url":"#fields","title":"Fields"},{"depth":2,"url":"#how-images-work","title":"How images work"},{"depth":2,"url":"#what-it-affects","title":"What it affects"},{"depth":2,"url":"#if-saving-fails","title":"If saving fails"},{"depth":2,"url":"#good-to-know","title":"Good to know"}],"children":[["$","$L15",null,{"children":"Server profile"}],["$","$L16",null,{"children":"Give the bot a nickname, avatar, banner and bio for one server."}],["$","$L17",null,{"children":[["$","p",null,{"children":["The ",["$","strong",null,{"children":"Bot profile (this server)"}]," card on the server page lets you brand the bot per server. It sits\njust under ",["$","strong",null,{"children":"General settings"}],"."]}],"\n",["$","p",null,{"children":"Intro text (exactly as shown):"}],"\n",["$","blockquote",null,{"children":["\n",["$","p",null,{"children":"Give the bot a nickname, avatar, banner and bio just for this server. Avatar and banner take an\nimage URL (or a data URI). Leave a field blank and save to clear it."}],"\n"]}],"\n",["$","$L18",null,{"as":"h2","id":"fields","children":"Fields"}],"\n",["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","tabIndex":0,"children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Label"}],["$","th",null,{"children":"Meaning"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Nickname"}]}],["$","td",null,{"children":["The bot's nickname in this server. Up to ",["$","strong",null,{"children":"32"}]," characters."]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Avatar image URL"}]}],["$","td",null,{"children":"A server-only avatar. An image URL or a data URI."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Banner image URL"}]}],["$","td",null,{"children":"A server-only banner. An image URL or a data URI."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Bio"}]}],["$","td",null,{"children":["A server-only bio. Up to ",["$","strong",null,{"children":"190"}]," characters."]}]]}]]}]]}]}],"\n",["$","p",null,{"children":["Button: ",["$","strong",null,{"children":"Save profile"}],". On success you get the toast ",["$","code",null,{"children":"Bot profile updated"}],"."]}],"\n",["$","$L18",null,{"as":"h2","id":"how-images-work","children":"How images work"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Avatar"}]," and ",["$","strong",null,{"children":"Banner"}]," accept either a normal ",["$","strong",null,{"children":"image URL"}]," (",["$","code",null,{"children":"https://..."}],") or a ",["$","strong",null,{"children":"data URI"}],"\n(",["$","code",null,{"children":"data:image/png;base64,..."}],")."]}],"\n",["$","li",null,{"children":["A URL is fetched by the bot, must return an ",["$","code",null,{"children":"image/*"}]," content type, and must be ",["$","strong",null,{"children":"8 MB or\nsmaller"}],". Anything else is rejected with an error toast."]}],"\n",["$","li",null,{"children":["These values are remembered per server, so the fields stay filled the next time you open the\npage - clear a field and press ",["$","strong",null,{"children":"Save profile"}]," to remove the avatar/banner/nickname/bio."]}],"\n"]}],"\n",["$","$L18",null,{"as":"h2","id":"what-it-affects","children":"What it affects"}],"\n",["$","ul",null,{"children":["\n",["$","li",null,{"children":[["$","strong",null,{"children":"Nickname"}]," changes how the bot's name shows in this server only."]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Avatar"}]," and ",["$","strong",null,{"children":"Banner"}]," are this server's profile images for the bot."]}],"\n",["$","li",null,{"children":[["$","strong",null,{"children":"Bio"}]," is the bot's \"about me\" text in this server."]}],"\n"]}],"\n",["$","p",null,{"children":"None of this changes the bot globally, and it doesn't touch panels, tickets or transcripts."}],"\n",["$","$L18",null,{"as":"h2","id":"if-saving-fails","children":"If saving fails"}],"\n",["$","p",null,{"children":"The save is all-or-nothing: if Discord rejects any part, no field is stored."}],"\n",["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","tabIndex":0,"children":"$L19"}],"\n","$L1a","\n","$L1b"]}]]}],["$L1c","$L1d"],"$L1e"]}],"p":"$@1f","v":null,"s":"$d"}}]]
+2:[["children",{"s":{"n":"slug","t":"oc","k":"dashboard/profile","s":[]},"h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+1:[["children",{"s":"docs","h":32,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L21",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L23",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$24",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Server profile | dat one ticketer"}],["$","meta","1",{"name":"description","content":"Give the bot a nickname, avatar, banner and bio for one server."}],["$","link","2",{"rel":"icon","href":"/dotbot-wiki/icon.svg?icon.1pymhwcpvzki0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L25","3",{}]]}]}],null]}],null]}],"p":"$@26","v":null,"s":"$d"}},"a":"$@27","u":"$@28","b":"iB21UO9MJ2bcwMmmwPId4"}
+29:I[47873,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"default"]
+2a:I[97367,["$4","$5","$6","$7","$8"],"OutletBoundary"]
+19:["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Toast"}],["$","th",null,{"children":"Meaning"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Image must be a URL or data URI"}]}],["$","td",null,{"children":["The value starts with neither ",["$","code",null,{"children":"http(s)://"}]," nor ",["$","code",null,{"children":"data:"}],"."]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Could not fetch image (<status>)"}]}],["$","td",null,{"children":"The bot could not download the URL."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"That URL is not an image"}]}],["$","td",null,{"children":"The URL returned a non-image content type."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Image is larger than 8 MB"}]}],["$","td",null,{"children":"Shrink the file or host a smaller version."}]]}],["$","tr",null,{"children":[["$","td",null,{"children":["$","code",null,{"children":"Discord rejected the profile: ..."}]}],["$","td",null,{"children":"Discord refused the result - usually an invalid image or a bio over 190 characters."}]]}]]}]]}]
+1a:["$","$L18",null,{"as":"h2","id":"good-to-know","children":"Good to know"}]
+1b:["$","ul",null,{"children":["\n",["$","li",null,{"children":"Every server can style the bot independently - one server's avatar/nickname never leaks to\nanother."}],"\n",["$","li",null,{"children":["Changes are recorded in the ",["$","$L29",null,{"href":"/docs/dashboard/audit","children":"audit log"}]," as ",["$","code",null,{"children":"bot.profile"}],"."]}],"\n",["$","li",null,{"children":"If Discord won't accept an image (wrong format, too large, or a feature the bot's profile can't\nuse), you get an error toast and nothing is saved."}],"\n"]}]
+1c:["$","script","script-0",{"src":"/dotbot-wiki/_next/static/chunks/3b8h1rpo-v3pl.js","async":true}]
+1d:["$","script","script-1",{"src":"/dotbot-wiki/_next/static/chunks/26w8pmxqmgdpv.js","async":true}]
+1e:["$","$L2a",null,{"children":["$","$24",null,{"name":"Next.MetadataOutlet","children":"$@2b"}]}]
+28:true
+d:300
+2b:null
+d:C
+27:0
+b:"$undefined"
+26:"$undefined"
+1f:"$undefined"
