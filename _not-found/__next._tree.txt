@@ -1,4 +1,4 @@
 :HL["/dotbot-wiki/_next/static/chunks/37e0jdyx03gij.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"w5BNyF5H3QIY1mMNc1Vcd","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"q1I-x0ys-E3f2_A2Pz6R9","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

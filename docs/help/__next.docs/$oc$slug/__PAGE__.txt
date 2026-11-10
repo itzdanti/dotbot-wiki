@@ -1,0 +1,51 @@
+3:"$Sreact.fragment"
+4:"/dotbot-wiki/_next/static/chunks/2246b7geljd_r.js"
+5:"/dotbot-wiki/_next/static/chunks/0dls0mmeux0zy.js"
+6:"/dotbot-wiki/_next/static/chunks/2swq1hg-1wy_b.js"
+7:"/dotbot-wiki/_next/static/chunks/41uhrw00nx-kf.js"
+8:"/dotbot-wiki/_next/static/chunks/0szhorn1p3cty.js"
+9:I[39756,["$4","$5","$6","$7","$8"],"default"]
+a:I[37457,["$4","$5","$6","$7","$8"],"default"]
+f:"/dotbot-wiki/_next/static/chunks/3vcrbjdf-4nfq.js"
+10:"/dotbot-wiki/_next/static/chunks/1_rw8zo_m49-l.js"
+11:"/dotbot-wiki/_next/static/chunks/173584cyzqytr.js"
+12:"/dotbot-wiki/_next/static/chunks/3b8h1rpo-v3pl.js"
+13:"/dotbot-wiki/_next/static/chunks/26w8pmxqmgdpv.js"
+14:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsPage"]
+15:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsTitle"]
+16:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsDescription"]
+17:I[98330,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"DocsBody"]
+18:I[94157,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"Heading"]
+19:I[47873,["$4","$5","$6","$7","$8","$f","$10","$11","$12","$13"],"default"]
+25:"ViewportBoundary"
+26:I[97367,["$4","$5","$6","$7","$8"],"$25"]
+27:"MetadataBoundary"
+28:I[97367,["$4","$5","$6","$7","$8"],"$27"]
+29:"$Sreact.suspense"
+2a:I[27201,["$4","$5","$6","$7","$8"],"IconMark"]
+c:X
+c:C
+d:X
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","$L14",null,{"toc":[{"depth":2,"url":"#support-server","title":"Support server"},{"depth":2,"url":"#incident-ids","title":"Incident IDs"},{"depth":2,"url":"#if-the-bot-stops-responding","title":"If the bot stops responding"},{"depth":2,"url":"#check-the-service-first","title":"Check the service first"},{"depth":2,"url":"#contact","title":"Contact"}],"children":[["$","$L15",null,{"children":"Getting help"}],["$","$L16",null,{"children":"The support server, incident IDs, and what to do when something breaks."}],["$","$L17",null,{"children":[["$","$L18",null,{"as":"h2","id":"support-server","children":"Support server"}],"\n",["$","p",null,{"children":"The support server is where you report problems, ask for help and appeal a block:"}],"\n",["$","p",null,{"children":["$","strong",null,{"children":["$","code",null,{"children":"https://itzdanti.dev/dotbot-support"}]}]}],"\n",["$","p",null,{"children":["It is linked as ",["$","code",null,{"children":"Support"}]," in the dashboard header, the legal pages and the status page, as\n",["$","code",null,{"children":"support"}]," in the dashboard footer, and behind the ",["$","strong",null,{"children":"Support server"}]," button in ",["$","code",null,{"children":"/help"}]," and the\n",["$","strong",null,{"children":"Support"}]," button in ",["$","code",null,{"children":"/about"}],"."]}],"\n",["$","$L18",null,{"as":"h2","id":"incident-ids","children":"Incident IDs"}],"\n",["$","p",null,{"children":["When something goes wrong, the service records an ",["$","strong",null,{"children":"incident"}]," and shows you a short ID shaped like\n",["$","code",null,{"children":"INC-XXXX-XXXX"}],". The alphabet skips ",["$","code",null,{"children":"0"}],", ",["$","code",null,{"children":"O"}],", ",["$","code",null,{"children":"1"}]," and ",["$","code",null,{"children":"I"}],", so IDs are easy to read out."]}],"\n",["$","p",null,{"children":"You will see an incident ID in one of these places:"}],"\n",["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","tabIndex":0,"children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Where"}],["$","th",null,{"children":"What it says"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Discord, any failed interaction"}],["$","td",null,{"children":[["$","code",null,{"children":"Something went wrong. Incident ID: INC-..."}]," then \"Give that ID to the bot admin...\""]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"A ticket that fails to open"}],["$","td",null,{"children":[["$","code",null,{"children":"Sorry, I couldn't create your ticket: ..."}]," followed by ",["$","code",null,{"children":"Incident ID: INC-..."}]]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"A ticket that fails to close"}],["$","td",null,{"children":[["$","code",null,{"children":"Could not close the ticket: ..."}]," followed by ",["$","code",null,{"children":"Incident ID: INC-..."}]]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Dashboard, a failed action"}],["$","td",null,{"children":["The toast ",["$","code",null,{"children":"Internal error. Incident ID: INC-..."}],"."]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Dashboard, a whole-page failure"}],["$","td",null,{"children":["A ",["$","code",null,{"children":"Something went wrong"}]," page showing the incident ID."]}]]}]]}]]}]}],"\n",["$","p",null,{"children":["If your server has a ",["$","strong",null,{"children":"Log channel"}]," set (General settings), the same incident is also posted there\nas an embed titled ",["$","code",null,{"children":"Incident <id>"}],", with the action, the acting user, where it happened and a short\nerror, plus a ",["$","strong",null,{"children":"Get support"}]," button."]}],"\n",["$","p",null,{"children":[["$","strong",null,{"children":"What to do:"}]," copy the entire ID (it looks like ",["$","code",null,{"children":"INC-4H7K-9QXM"}],") and send it to the bot admin in\nthe ",["$","$L19",null,{"href":"https://itzdanti.dev/dotbot-support","children":"support server"}],". They can look up the full error behind\nit. The ID is safe to share publicly."]}],"\n",["$","$L18",null,{"as":"h2","id":"if-the-bot-stops-responding","children":"If the bot stops responding"}],"\n",["$","p",null,{"children":["If the dashboard shows a ","$L1a"," card on the server page, or Discord replies\n","$L1b",", then the service has blocked your\nserver on purpose. The message includes the reason if one was given."]}],"\n","$L1c","\n","$L1d","\n","$L1e","\n","$L1f","\n","$L20"]}]]}],["$L21","$L22"],"$L23"]}],"p":"$@24","v":null,"s":"$d"}}]]
+2:[["children",{"s":{"n":"slug","t":"oc","k":"help","s":[]},"h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$La",null,{}]}]]}],"p":"$@b","v":"$c","s":"$d"},"c":"$Qe"}]]
+1:[["children",{"s":"docs","h":32,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L26",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L28",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$29",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Getting help | dat one ticketer"}],["$","meta","1",{"name":"description","content":"The support server, incident IDs, and what to do when something breaks."}],["$","link","2",{"rel":"icon","href":"/dotbot-wiki/icon.svg?icon.1pymhwcpvzki0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L2a","3",{}]]}]}],null]}],null]}],"p":"$@2b","v":null,"s":"$d"}},"a":"$@2c","u":"$@2d","b":"q1I-x0ys-E3f2_A2Pz6R9"}
+2e:I[97367,["$4","$5","$6","$7","$8"],"OutletBoundary"]
+1a:["$","strong",null,{"children":"This server is blocked"}]
+1b:["$","code",null,{"children":"This server has been blocked from using dat one ticketer."}]
+1c:["$","p",null,{"children":["While blocked, the bot ignores every command, button and panel in the server. To resolve it, appeal\nin the ",["$","$L19",null,{"href":"https://itzdanti.dev/dotbot-support","children":"support server"}],"; nothing you change in the dashboard\nwill make it respond until it is unblocked."]}]
+1d:["$","$L18",null,{"as":"h2","id":"check-the-service-first","children":"Check the service first"}]
+1e:["$","p",null,{"children":["Before reporting, open the ",["$","$L19",null,{"href":"/docs/dashboard/status","children":"status page"}]," (",["$","code",null,{"children":"/status"}],") and press ",["$","strong",null,{"children":"Refresh"}],".\nIf ",["$","code",null,{"children":"Service"}]," shows ",["$","code",null,{"children":"down"}]," or ",["$","code",null,{"children":"Database (D1)"}]," shows ",["$","code",null,{"children":"degraded"}],", the outage is already known and\ntickets will open again once it recovers."]}]
+1f:["$","$L18",null,{"as":"h2","id":"contact","children":"Contact"}]
+20:["$","div",null,{"className":"relative overflow-auto prose-no-margin my-6","tabIndex":0,"children":["$","table",null,{"children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{}],["$","th",null,{}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Support server"}],["$","td",null,{"children":["$","$L19",null,{"href":"https://itzdanti.dev/dotbot-support","children":"itzdanti.dev/dotbot-support"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Email"}],["$","td",null,{"children":["$","$L19",null,{"href":"mailto:ticketer@itzdanti.dev","children":"ticketer@itzdanti.dev"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Telegram"}],["$","td",null,{"children":["$","$L19",null,{"href":"https://t.me/itzdanti","children":"@itzdanti"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Discord"}],["$","td",null,{"children":["$","strong",null,{"children":"@itzdanti"}]}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Status"}],["$","td",null,{"children":["$","code",null,{"children":"/status"}]}]]}]]}]]}]}]
+21:["$","script","script-0",{"src":"/dotbot-wiki/_next/static/chunks/3b8h1rpo-v3pl.js","async":true}]
+22:["$","script","script-1",{"src":"/dotbot-wiki/_next/static/chunks/26w8pmxqmgdpv.js","async":true}]
+23:["$","$L2e",null,{"children":["$","$29",null,{"name":"Next.MetadataOutlet","children":"$@2f"}]}]
+2d:true
+d:300
+2f:null
+d:C
+2c:0
+b:"$undefined"
+2b:"$undefined"
+24:"$undefined"
